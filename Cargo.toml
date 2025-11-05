@@ -1,0 +1,8 @@
+[package]
+name = "gameboy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arrayvec = "0.7.6"
+sdl2 = { version = "0.38.0", features = ["unsafe_textures"] }

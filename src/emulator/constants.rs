@@ -1,0 +1,21 @@
+#![allow(unused)]
+pub(super) const SB: u16 = 0xFF01;
+pub(super) const SC: u16 = 0xFF02;
+pub(super) const DIV: u16 = 0xFF04;
+pub(super) const TIMA: u16 = 0xFF05;
+pub(super) const TMA: u16 = 0xFF06;
+pub(super) const TAC: u16 = 0xFF07;
+pub(super) const IF: u16 = 0xFF0F;
+pub(super) const LCDC: u16 = 0xFF40;
+pub(super) const STAT: u16 = 0xFF41;
+pub(super) const SCY: u16 = 0xFF42;
+pub(super) const SCX: u16 = 0xFF43;
+pub(super) const LY: u16 = 0xFF44;
+pub(super) const LYC: u16 = 0xFF45;
+pub(super) const DMA: u16 = 0xFF46;
+pub(super) const BGP: u16 = 0xFF47;
+pub(super) const OBP0: u16 = 0xFF48;
+pub(super) const OBP1: u16 = 0xFF49;
+pub(super) const IE: u16 = 0xFFFF;
+pub const SCRN_X: usize = 160;
+pub const SCRN_Y: usize = 144;
